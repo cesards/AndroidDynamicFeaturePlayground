@@ -4,7 +4,6 @@ ADDED from /Users/cdiezsanchez_c/Development/Android/Professional/TestDynamicFea
 INJECTED from /Users/cdiezsanchez_c/Development/Android/Professional/TestDynamicFeatures/dynamic_feature/src/main/AndroidManifest.xml:2:1-13:12
 INJECTED from /Users/cdiezsanchez_c/Development/Android/Professional/TestDynamicFeatures/dynamic_feature/src/main/AndroidManifest.xml:2:1-13:12
 INJECTED from /Users/cdiezsanchez_c/Development/Android/Professional/TestDynamicFeatures/dynamic_feature/src/main/AndroidManifest.xml:2:1-13:12
-MERGED from [:data] /Users/cdiezsanchez_c/Development/Android/Professional/TestDynamicFeatures/data/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
 INJECTED from /Users/cdiezsanchez_c/Development/Android/Professional/TestDynamicFeatures/dynamic_feature/src/main/AndroidManifest.xml:2:1-13:12
 INJECTED from /Users/cdiezsanchez_c/Development/Android/Professional/TestDynamicFeatures/dynamic_feature/src/main/AndroidManifest.xml:2:1-13:12
 INJECTED from /Users/cdiezsanchez_c/Development/Android/Professional/TestDynamicFeatures/dynamic_feature/src/main/AndroidManifest.xml:2:1-13:12
@@ -48,8 +47,6 @@ uses-sdk
 INJECTED from /Users/cdiezsanchez_c/Development/Android/Professional/TestDynamicFeatures/dynamic_feature/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/cdiezsanchez_c/Development/Android/Professional/TestDynamicFeatures/dynamic_feature/src/main/AndroidManifest.xml
 INJECTED from /Users/cdiezsanchez_c/Development/Android/Professional/TestDynamicFeatures/dynamic_feature/src/main/AndroidManifest.xml
-MERGED from [:data] /Users/cdiezsanchez_c/Development/Android/Professional/TestDynamicFeatures/data/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:data] /Users/cdiezsanchez_c/Development/Android/Professional/TestDynamicFeatures/data/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 INJECTED from /Users/cdiezsanchez_c/Development/Android/Professional/TestDynamicFeatures/dynamic_feature/src/main/AndroidManifest.xml
 INJECTED from /Users/cdiezsanchez_c/Development/Android/Professional/TestDynamicFeatures/dynamic_feature/src/main/AndroidManifest.xml
 	android:targetSdkVersion

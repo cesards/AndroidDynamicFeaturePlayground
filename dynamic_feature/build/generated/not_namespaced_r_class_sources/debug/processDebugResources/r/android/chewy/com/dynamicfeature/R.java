@@ -17,15 +17,13 @@ public final class R {
     public static final int email=0x7e020001;
     public static final int email_login_form=0x7e020002;
     public static final int email_sign_in_button=0x7e020003;
-    public static final int feature=0x7e020004;
-    public static final int login_form=0x7e020005;
-    public static final int login_progress=0x7e020006;
-    public static final int password=0x7e020007;
+    public static final int login_form=0x7e020004;
+    public static final int login_progress=0x7e020005;
+    public static final int password=0x7e020006;
   }
   public static final class layout {
     public static final int activity_dynamic_features=0x7e030000;
     public static final int activity_login=0x7e030001;
-    public static final int item_feature=0x7e030002;
   }
   public static final class string {
     public static final int action_sign_in=0x7e040000;

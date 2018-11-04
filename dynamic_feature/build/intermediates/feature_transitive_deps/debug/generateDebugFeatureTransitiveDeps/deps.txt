@@ -1,5 +1,4 @@
 org.jetbrains.kotlin:kotlin-stdlib
 org.jetbrains.kotlin:kotlin-stdlib-common
 org.jetbrains.kotlin:kotlin-stdlib-jdk7
-:data::debug
 org.jetbrains:annotations
