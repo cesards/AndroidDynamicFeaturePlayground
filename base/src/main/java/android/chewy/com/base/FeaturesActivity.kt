@@ -1,6 +1,9 @@
 package android.chewy.com.base
 
+import android.chewy.com.data.DynamicFeature
+import android.chewy.com.data.Feature
 import android.chewy.com.data.FeaturesAdapter
+import android.chewy.com.data.features
 import android.content.Intent
 import android.os.Bundle
 import android.util.Log
@@ -11,9 +14,46 @@ import androidx.recyclerview.widget.RecyclerView
 import com.google.android.play.core.splitinstall.*
 import com.google.android.play.core.splitinstall.model.SplitInstallSessionStatus
 
-private const val TAG = "DynamicFeatures"
+private const val TAG = "FeaturesActivity"
 
-class FeaturesActivity : AppCompatActivity() {
+class FeaturesActivity : AppCompatActivity(), DynamicFeature {
+
+    private val featuresAdapter = FeaturesAdapter(this)
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_features)
+        setupViews()
+
+        featuresAdapter.withFeatures(features())
+    }
+
+    override fun load(feature: Feature) {
+
+    }
+
+    private fun setupViews() {
+        val featuresView = findViewById<RecyclerView>(R.id.features)
+        featuresView.adapter = featuresAdapter
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     private val listener = SplitInstallStateUpdatedListener { state ->
         val multiInstall = state.moduleNames().size > 1
@@ -45,29 +85,24 @@ class FeaturesActivity : AppCompatActivity() {
 
     private lateinit var manager: SplitInstallManager
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_features)
-        setupViews()
-        manager = SplitInstallManagerFactory.create(this)
-    }
-
-    override fun onResume() {
-        super.onResume()
-        // Listener can be registered even without directly triggering a download.
-        manager.registerListener(listener)
-    }
-
-    override fun onPause() {
-        // Make sure to dispose of the listener once it's no longer needed.
-        manager.unregisterListener(listener)
-        super.onPause()
-    }
-
-    private fun setupViews() {
-        val featuresView = findViewById<RecyclerView>(R.id.features)
-        featuresView.adapter = FeaturesAdapter()
-    }
+//    override fun onCreate(savedInstanceState: Bundle?) {
+//        super.onCreate(savedInstanceState)
+//        setContentView(R.layout.activity_features)
+//        setupViews()
+//        manager = SplitInstallManagerFactory.create(this)
+//    }
+//
+//    override fun onResume() {
+//        super.onResume()
+//        // Listener can be registered even without directly triggering a download.
+//        manager.registerListener(listener)
+//    }
+//
+//    override fun onPause() {
+//        // Make sure to dispose of the listener once it's no longer needed.
+//        manager.unregisterListener(listener)
+//        super.onPause()
+//    }
 
     /**
      * Load a feature by module name.
