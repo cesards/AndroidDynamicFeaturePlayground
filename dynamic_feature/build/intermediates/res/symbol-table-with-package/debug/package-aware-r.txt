@@ -1,0 +1,24 @@
+com.chewy.android.test.lololol
+dimen activity_horizontal_margin
+dimen activity_vertical_margin
+id dynamic_features
+id email
+id email_login_form
+id email_sign_in_button
+id feature
+id login_form
+id login_progress
+id password
+layout activity_dynamic_features
+layout activity_login
+layout item_feature
+string action_sign_in
+string action_sign_in_short
+string app_name
+string error_field_required
+string error_incorrect_password
+string error_invalid_email
+string error_invalid_password
+string permission_rationale
+string prompt_email
+string prompt_password

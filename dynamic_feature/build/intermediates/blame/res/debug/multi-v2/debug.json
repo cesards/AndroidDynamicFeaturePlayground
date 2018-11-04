@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/cdiezsanchez_c/Development/Android/Professional/TestDynamicFeatures/dynamic_feature/build/intermediates/res/merged/debug/values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/cdiezsanchez_c/Development/Android/Professional/TestDynamicFeatures/dynamic_feature/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "5,6,1,10,9,7,8,11,3,4",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "218,281,16,574,494,338,416,646,107,154",
+                        "endColumns": "62,56,52,71,79,77,77,115,46,63",
+                        "endOffsets": "276,333,64,641,569,411,489,757,149,213"
+                    },
+                    "to": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "169,232,289,342,414,494,572,650,766,813",
+                        "endColumns": "62,56,52,71,79,77,77,115,46,63",
+                        "endOffsets": "227,284,337,409,489,567,645,761,808,872"
+                    }
+                },
+                {
+                    "source": "/Users/cdiezsanchez_c/Development/Android/Professional/TestDynamicFeatures/dynamic_feature/src/main/res/values/dimens.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "88,146",
+                        "endColumns": "57,55",
+                        "endOffsets": "141,197"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,113",
+                        "endColumns": "57,55",
+                        "endOffsets": "108,164"
+                    }
+                }
+            ]
+        }
+    ]
+}

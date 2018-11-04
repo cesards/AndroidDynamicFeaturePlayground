@@ -1,0 +1,1 @@
+[{"outputType":{"type":"MERGED_MANIFESTS"},"apkInfo":{"type":"MAIN","splits":[],"versionCode":-1,"enabled":true,"outputFile":"dynamic_feature-debug.apk","fullName":"debug","baseName":"debug"},"path":"AndroidManifest.xml","properties":{"packageId":"com.chewy.android.test.lololol","split":"","minSdkVersion":"21"}}]

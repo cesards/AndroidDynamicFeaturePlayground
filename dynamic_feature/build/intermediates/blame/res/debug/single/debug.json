@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/cdiezsanchez_c/Development/Android/Professional/TestDynamicFeatures/dynamic_feature/build/intermediates/res/merged/debug/layout_activity_dynamic_features.xml.flat",
+        "source": "/Users/cdiezsanchez_c/Development/Android/Professional/TestDynamicFeatures/dynamic_feature/src/main/res/layout/activity_dynamic_features.xml"
+    },
+    {
+        "merged": "/Users/cdiezsanchez_c/Development/Android/Professional/TestDynamicFeatures/dynamic_feature/build/intermediates/res/merged/debug/layout_activity_login.xml.flat",
+        "source": "/Users/cdiezsanchez_c/Development/Android/Professional/TestDynamicFeatures/dynamic_feature/src/main/res/layout/activity_login.xml"
+    },
+    {
+        "merged": "/Users/cdiezsanchez_c/Development/Android/Professional/TestDynamicFeatures/dynamic_feature/build/intermediates/res/merged/debug/layout_item_feature.xml.flat",
+        "source": "/Users/cdiezsanchez_c/Development/Android/Professional/TestDynamicFeatures/data/build/intermediates/packaged_res/debug/layout/item_feature.xml"
+    }
+]

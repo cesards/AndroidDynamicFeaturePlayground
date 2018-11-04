@@ -1,0 +1,198 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/cdiezsanchez_c/Development/Android/Professional/TestDynamicFeatures/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/cdiezsanchez_c/Development/Android/Professional/TestDynamicFeatures/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/cdiezsanchez_c/Development/Android/Professional/TestDynamicFeatures/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/cdiezsanchez_c/Development/Android/Professional/TestDynamicFeatures/app/src/main/AndroidManifest.xml:2:1-21:12
+MERGED from [com.google.android.material:material:1.1.0-alpha01] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/material-1.1.0-alpha01.aar/2069481697dd027fd78367b3f047ce1f/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0.aar/c48b67b1ed401a21e61742591df5b941/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/constraintlayout-1.1.3.aar/336772f8a70ad184ccf029d42d2d9fe3/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.play:core:1.3.5] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/core-1.3.5.aar/0499086d7a2810097450f39c045af95a/AndroidManifest.xml:2:1-6:12
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0.aar/3b39964ce67a800d23b93ea2cd81ad92/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.0.0.aar/7971951794a3144702587c3caaf140dc/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/recyclerview-1.0.0.aar/ea0612fe06914dfe9fc2777d7e4d56fa/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/42f3ab52de0863228493672e92d57ee7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/a0906c9ca446bce493c046d59496555e/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.0.0.aar/3e4d42e0b0855d81ee231551a0130a08/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/transition-1.0.0.aar/2a4a93ac3a970c3387c0dd25c89aa8fb/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/df54d96e15714364e734a4193c19fce2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/3853d52616093c5e91ef40f5d13070f7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/90758c881996eb21386fd32c87ffb476/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/cabed76b0724e30dd642e834f2bcd256/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/d9db8c442f2276fcf8f7da1929a5edcb/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/6c55227462940f09e2a2ddbd9dbc6e90/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/7cf1ec4c42f3a7368b028b0a127a889f/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/3d09c454f46012cdcecc57e05bc08cd8/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/8c1d5b758d31e21979d5823263489f98/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/e91a7cd98b76dceaa3cd26dee158197a/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/6b4b813b689eb96a9d535a6d5ee1159f/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/cardview-1.0.0.aar/a96865b407fcf9500bc7b1774579f05f/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/a6cb76d49aad04e109bdd5312827195f/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/fb3c36812e269592ea4fe5c9e52818b2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/c95169aea8f7a4b537dabab43038b270/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/ba144918379bf58243f90c327a791fc6/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/fbd8305deb6e9f01da03676753e6e326/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/987e8dc4efca69a7a6e515261f80d681/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/40c60fca4689cd6271fbd705950e6e69/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/ffc99d4ac0e20bc09e4e68fa4c1e14ee/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/dd5dab9e588f9b6e3e0d56f04df23a7e/AndroidManifest.xml:17:1-22:12
+MERGED from [:dynamic_feature] /Users/cdiezsanchez_c/Development/Android/Professional/TestDynamicFeatures/dynamic_feature/build/intermediates/merged_manifests/debug/AndroidManifest.xml:2:1-20:12
+INJECTED from /Users/cdiezsanchez_c/Development/Android/Professional/TestDynamicFeatures/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/cdiezsanchez_c/Development/Android/Professional/TestDynamicFeatures/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/cdiezsanchez_c/Development/Android/Professional/TestDynamicFeatures/app/src/main/AndroidManifest.xml:2:1-21:12
+	package
+		ADDED from /Users/cdiezsanchez_c/Development/Android/Professional/TestDynamicFeatures/app/src/main/AndroidManifest.xml:3:11-51
+		INJECTED from /Users/cdiezsanchez_c/Development/Android/Professional/TestDynamicFeatures/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/cdiezsanchez_c/Development/Android/Professional/TestDynamicFeatures/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/cdiezsanchez_c/Development/Android/Professional/TestDynamicFeatures/app/src/main/AndroidManifest.xml
+		ADDED from /Users/cdiezsanchez_c/Development/Android/Professional/TestDynamicFeatures/app/src/main/AndroidManifest.xml:2:1-21:12
+		INJECTED from /Users/cdiezsanchez_c/Development/Android/Professional/TestDynamicFeatures/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/cdiezsanchez_c/Development/Android/Professional/TestDynamicFeatures/app/src/main/AndroidManifest.xml
+		ADDED from /Users/cdiezsanchez_c/Development/Android/Professional/TestDynamicFeatures/app/src/main/AndroidManifest.xml:2:1-21:12
+		INJECTED from /Users/cdiezsanchez_c/Development/Android/Professional/TestDynamicFeatures/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/cdiezsanchez_c/Development/Android/Professional/TestDynamicFeatures/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/cdiezsanchez_c/Development/Android/Professional/TestDynamicFeatures/app/src/main/AndroidManifest.xml:5:5-19:19
+MERGED from [com.google.android.material:material:1.1.0-alpha01] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/material-1.1.0-alpha01.aar/2069481697dd027fd78367b3f047ce1f/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0-alpha01] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/material-1.1.0-alpha01.aar/2069481697dd027fd78367b3f047ce1f/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/constraintlayout-1.1.3.aar/336772f8a70ad184ccf029d42d2d9fe3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/constraintlayout-1.1.3.aar/336772f8a70ad184ccf029d42d2d9fe3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/8c1d5b758d31e21979d5823263489f98/AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/8c1d5b758d31e21979d5823263489f98/AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/e91a7cd98b76dceaa3cd26dee158197a/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/e91a7cd98b76dceaa3cd26dee158197a/AndroidManifest.xml:22:5-23:19
+MERGED from [:dynamic_feature] /Users/cdiezsanchez_c/Development/Android/Professional/TestDynamicFeatures/dynamic_feature/build/intermediates/merged_manifests/debug/AndroidManifest.xml:15:5-18:19
+MERGED from [:dynamic_feature] /Users/cdiezsanchez_c/Development/Android/Professional/TestDynamicFeatures/dynamic_feature/build/intermediates/merged_manifests/debug/AndroidManifest.xml:15:5-18:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/8c1d5b758d31e21979d5823263489f98/AndroidManifest.xml:22:18-86
+	android:supportsRtl
+		ADDED from /Users/cdiezsanchez_c/Development/Android/Professional/TestDynamicFeatures/app/src/main/AndroidManifest.xml:10:13-39
+	android:label
+		ADDED from /Users/cdiezsanchez_c/Development/Android/Professional/TestDynamicFeatures/app/src/main/AndroidManifest.xml:8:13-45
+	android:debuggable
+		ADDED from [:dynamic_feature] /Users/cdiezsanchez_c/Development/Android/Professional/TestDynamicFeatures/dynamic_feature/build/intermediates/merged_manifests/debug/AndroidManifest.xml:15:18-43
+	android:roundIcon
+		ADDED from /Users/cdiezsanchez_c/Development/Android/Professional/TestDynamicFeatures/app/src/main/AndroidManifest.xml:9:13-58
+	android:icon
+		ADDED from /Users/cdiezsanchez_c/Development/Android/Professional/TestDynamicFeatures/app/src/main/AndroidManifest.xml:7:13-47
+	android:allowBackup
+		ADDED from /Users/cdiezsanchez_c/Development/Android/Professional/TestDynamicFeatures/app/src/main/AndroidManifest.xml:6:13-39
+	android:theme
+		ADDED from /Users/cdiezsanchez_c/Development/Android/Professional/TestDynamicFeatures/app/src/main/AndroidManifest.xml:11:13-44
+activity#com.chewy.test.dynamicfeatures.MainActivity
+ADDED from /Users/cdiezsanchez_c/Development/Android/Professional/TestDynamicFeatures/app/src/main/AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from /Users/cdiezsanchez_c/Development/Android/Professional/TestDynamicFeatures/app/src/main/AndroidManifest.xml:12:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/cdiezsanchez_c/Development/Android/Professional/TestDynamicFeatures/app/src/main/AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from /Users/cdiezsanchez_c/Development/Android/Professional/TestDynamicFeatures/app/src/main/AndroidManifest.xml:14:17-68
+	android:name
+		ADDED from /Users/cdiezsanchez_c/Development/Android/Professional/TestDynamicFeatures/app/src/main/AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/cdiezsanchez_c/Development/Android/Professional/TestDynamicFeatures/app/src/main/AndroidManifest.xml:16:17-76
+	android:name
+		ADDED from /Users/cdiezsanchez_c/Development/Android/Professional/TestDynamicFeatures/app/src/main/AndroidManifest.xml:16:27-74
+uses-sdk
+INJECTED from /Users/cdiezsanchez_c/Development/Android/Professional/TestDynamicFeatures/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/cdiezsanchez_c/Development/Android/Professional/TestDynamicFeatures/app/src/main/AndroidManifest.xml
+INJECTED from /Users/cdiezsanchez_c/Development/Android/Professional/TestDynamicFeatures/app/src/main/AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.1.0-alpha01] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/material-1.1.0-alpha01.aar/2069481697dd027fd78367b3f047ce1f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0-alpha01] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/material-1.1.0-alpha01.aar/2069481697dd027fd78367b3f047ce1f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0.aar/c48b67b1ed401a21e61742591df5b941/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0.aar/c48b67b1ed401a21e61742591df5b941/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/constraintlayout-1.1.3.aar/336772f8a70ad184ccf029d42d2d9fe3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/constraintlayout-1.1.3.aar/336772f8a70ad184ccf029d42d2d9fe3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.play:core:1.3.5] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/core-1.3.5.aar/0499086d7a2810097450f39c045af95a/AndroidManifest.xml:4:3-70
+MERGED from [com.google.android.play:core:1.3.5] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/core-1.3.5.aar/0499086d7a2810097450f39c045af95a/AndroidManifest.xml:4:3-70
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0.aar/3b39964ce67a800d23b93ea2cd81ad92/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0.aar/3b39964ce67a800d23b93ea2cd81ad92/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.0.0.aar/7971951794a3144702587c3caaf140dc/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.0.0.aar/7971951794a3144702587c3caaf140dc/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/recyclerview-1.0.0.aar/ea0612fe06914dfe9fc2777d7e4d56fa/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/recyclerview-1.0.0.aar/ea0612fe06914dfe9fc2777d7e4d56fa/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/42f3ab52de0863228493672e92d57ee7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/42f3ab52de0863228493672e92d57ee7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/a0906c9ca446bce493c046d59496555e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/a0906c9ca446bce493c046d59496555e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.0.0.aar/3e4d42e0b0855d81ee231551a0130a08/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.0.0.aar/3e4d42e0b0855d81ee231551a0130a08/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/transition-1.0.0.aar/2a4a93ac3a970c3387c0dd25c89aa8fb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/transition-1.0.0.aar/2a4a93ac3a970c3387c0dd25c89aa8fb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/df54d96e15714364e734a4193c19fce2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/df54d96e15714364e734a4193c19fce2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/3853d52616093c5e91ef40f5d13070f7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/3853d52616093c5e91ef40f5d13070f7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/90758c881996eb21386fd32c87ffb476/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/90758c881996eb21386fd32c87ffb476/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/cabed76b0724e30dd642e834f2bcd256/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/cabed76b0724e30dd642e834f2bcd256/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/d9db8c442f2276fcf8f7da1929a5edcb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/d9db8c442f2276fcf8f7da1929a5edcb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/6c55227462940f09e2a2ddbd9dbc6e90/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/6c55227462940f09e2a2ddbd9dbc6e90/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/7cf1ec4c42f3a7368b028b0a127a889f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/7cf1ec4c42f3a7368b028b0a127a889f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/3d09c454f46012cdcecc57e05bc08cd8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/3d09c454f46012cdcecc57e05bc08cd8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/8c1d5b758d31e21979d5823263489f98/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/8c1d5b758d31e21979d5823263489f98/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/e91a7cd98b76dceaa3cd26dee158197a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/e91a7cd98b76dceaa3cd26dee158197a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/6b4b813b689eb96a9d535a6d5ee1159f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/6b4b813b689eb96a9d535a6d5ee1159f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/cardview-1.0.0.aar/a96865b407fcf9500bc7b1774579f05f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/cardview-1.0.0.aar/a96865b407fcf9500bc7b1774579f05f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/a6cb76d49aad04e109bdd5312827195f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/a6cb76d49aad04e109bdd5312827195f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/fb3c36812e269592ea4fe5c9e52818b2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/fb3c36812e269592ea4fe5c9e52818b2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/c95169aea8f7a4b537dabab43038b270/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/c95169aea8f7a4b537dabab43038b270/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/ba144918379bf58243f90c327a791fc6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/ba144918379bf58243f90c327a791fc6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/fbd8305deb6e9f01da03676753e6e326/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/fbd8305deb6e9f01da03676753e6e326/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/987e8dc4efca69a7a6e515261f80d681/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/987e8dc4efca69a7a6e515261f80d681/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/40c60fca4689cd6271fbd705950e6e69/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/40c60fca4689cd6271fbd705950e6e69/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/ffc99d4ac0e20bc09e4e68fa4c1e14ee/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/ffc99d4ac0e20bc09e4e68fa4c1e14ee/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/dd5dab9e588f9b6e3e0d56f04df23a7e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/cdiezsanchez_c/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/dd5dab9e588f9b6e3e0d56f04df23a7e/AndroidManifest.xml:20:5-44
+MERGED from [:dynamic_feature] /Users/cdiezsanchez_c/Development/Android/Professional/TestDynamicFeatures/dynamic_feature/build/intermediates/merged_manifests/debug/AndroidManifest.xml:8:5-10:41
+MERGED from [:dynamic_feature] /Users/cdiezsanchez_c/Development/Android/Professional/TestDynamicFeatures/dynamic_feature/build/intermediates/merged_manifests/debug/AndroidManifest.xml:8:5-10:41
+INJECTED from /Users/cdiezsanchez_c/Development/Android/Professional/TestDynamicFeatures/app/src/main/AndroidManifest.xml
+INJECTED from /Users/cdiezsanchez_c/Development/Android/Professional/TestDynamicFeatures/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/cdiezsanchez_c/Development/Android/Professional/TestDynamicFeatures/app/src/main/AndroidManifest.xml
+		ADDED from /Users/cdiezsanchez_c/Development/Android/Professional/TestDynamicFeatures/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/cdiezsanchez_c/Development/Android/Professional/TestDynamicFeatures/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/cdiezsanchez_c/Development/Android/Professional/TestDynamicFeatures/app/src/main/AndroidManifest.xml
+		ADDED from /Users/cdiezsanchez_c/Development/Android/Professional/TestDynamicFeatures/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/cdiezsanchez_c/Development/Android/Professional/TestDynamicFeatures/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from [:dynamic_feature] /Users/cdiezsanchez_c/Development/Android/Professional/TestDynamicFeatures/dynamic_feature/build/intermediates/merged_manifests/debug/AndroidManifest.xml:11:5-71
+	android:name
+		ADDED from [:dynamic_feature] /Users/cdiezsanchez_c/Development/Android/Professional/TestDynamicFeatures/dynamic_feature/build/intermediates/merged_manifests/debug/AndroidManifest.xml:11:22-68
+uses-permission#android.permission.READ_PROFILE
+ADDED from [:dynamic_feature] /Users/cdiezsanchez_c/Development/Android/Professional/TestDynamicFeatures/dynamic_feature/build/intermediates/merged_manifests/debug/AndroidManifest.xml:12:5-71
+	android:name
+		ADDED from [:dynamic_feature] /Users/cdiezsanchez_c/Development/Android/Professional/TestDynamicFeatures/dynamic_feature/build/intermediates/merged_manifests/debug/AndroidManifest.xml:12:22-68
+uses-permission#android.permission.READ_CONTACTS
+ADDED from [:dynamic_feature] /Users/cdiezsanchez_c/Development/Android/Professional/TestDynamicFeatures/dynamic_feature/build/intermediates/merged_manifests/debug/AndroidManifest.xml:13:5-72
+	android:name
+		ADDED from [:dynamic_feature] /Users/cdiezsanchez_c/Development/Android/Professional/TestDynamicFeatures/dynamic_feature/build/intermediates/merged_manifests/debug/AndroidManifest.xml:13:22-69
+activity#android.chewy.com.dynamicfeature.LoginActivity
+ADDED from [:dynamic_feature] /Users/cdiezsanchez_c/Development/Android/Professional/TestDynamicFeatures/dynamic_feature/build/intermediates/merged_manifests/debug/AndroidManifest.xml:16:9-83
+	android:name
+		ADDED from [:dynamic_feature] /Users/cdiezsanchez_c/Development/Android/Professional/TestDynamicFeatures/dynamic_feature/build/intermediates/merged_manifests/debug/AndroidManifest.xml:16:19-80
+activity#android.chewy.com.dynamicfeature.DynamicFeaturesActivity
+ADDED from [:dynamic_feature] /Users/cdiezsanchez_c/Development/Android/Professional/TestDynamicFeatures/dynamic_feature/build/intermediates/merged_manifests/debug/AndroidManifest.xml:17:9-93
+	android:name
+		ADDED from [:dynamic_feature] /Users/cdiezsanchez_c/Development/Android/Professional/TestDynamicFeatures/dynamic_feature/build/intermediates/merged_manifests/debug/AndroidManifest.xml:17:19-90
