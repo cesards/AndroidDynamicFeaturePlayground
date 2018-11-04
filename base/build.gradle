@@ -13,6 +13,9 @@ android {
 dependencies {
     implementation project(':data')
 
+    implementation 'androidx.recyclerview:recyclerview:1.0.0'
+
+
 
     api 'com.google.android.play:core:1.3.5'
     api "org.jetbrains.kotlin:kotlin-stdlib-jdk7:${versions.kotlin}"

@@ -1,2 +1,11 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="android.chewy.com.base"/>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="android.chewy.com.base">
+    <application>
+        <activity android:name=".FeaturesActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

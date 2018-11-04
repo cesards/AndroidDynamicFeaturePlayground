@@ -14,5 +14,4 @@ abstract class SplitActivity : AppCompatActivity() {
         super.attachBaseContext(newBase)
         SplitCompat.install(this)
     }
-
 }

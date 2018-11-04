@@ -33,7 +33,7 @@ class FeaturesActivity : AppCompatActivity() {
                     startIntentSender(state.resolutionIntent()?.intentSender, null, 0, 0, 0)
                 }
                 SplitInstallSessionStatus.INSTALLED -> {
-                    onSuccessfulLoad(name, launch = !multiInstall)
+                    onSuccessfulLoad(name!!, launch = !multiInstall)
                 }
                 SplitInstallSessionStatus.INSTALLING -> displayLoadingState(state, "Installing $name")
                 SplitInstallSessionStatus.FAILED -> {
@@ -47,7 +47,7 @@ class FeaturesActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_features)
         setupViews()
         manager = SplitInstallManagerFactory.create(this)
     }
@@ -74,10 +74,10 @@ class FeaturesActivity : AppCompatActivity() {
      * @param name The name of the feature module to load.
      */
     private fun loadAndLaunchModule(name: String) {
-        updateProgressMessage("Loading module $name")
+//        updateProgressMessage("Loading module $name")
         // Skip loading if the module already is installed. Perform success action directly.
         if (manager.installedModules.contains(name)) {
-            updateProgressMessage("Already installed")
+//            updateProgressMessage("Already installed")
             onSuccessfulLoad(name, launch = true)
             return
         }
@@ -90,7 +90,7 @@ class FeaturesActivity : AppCompatActivity() {
         // Load and install the requested feature module.
         manager.startInstall(request)
 
-        updateProgressMessage("Starting install for $name")
+//        updateProgressMessage("Starting install for $name")
     }
 
     /** Display assets loaded from the assets feature module. */
@@ -111,30 +111,30 @@ class FeaturesActivity : AppCompatActivity() {
     }
 
     /** Install all features but do not launch any of them. */
-    private fun installAllFeaturesNow() {
-        // Request all known modules to be downloaded in a single session.
-        val request = SplitInstallRequest.newBuilder()
-            .addModule(moduleKotlin)
-            .addModule(moduleJava)
-            .addModule(moduleNative)
-            .addModule(moduleAssets)
-            .build()
-
-        // Start the install with above request.
-        manager.startInstall(request).addOnSuccessListener {
-            toastAndLog("Loading ${request.moduleNames}")
-        }
-    }
+//    private fun installAllFeaturesNow() {
+//        // Request all known modules to be downloaded in a single session.
+//        val request = SplitInstallRequest.newBuilder()
+//            .addModule(moduleKotlin)
+//            .addModule(moduleJava)
+//            .addModule(moduleNative)
+//            .addModule(moduleAssets)
+//            .build()
+//
+//        // Start the install with above request.
+//        manager.startInstall(request).addOnSuccessListener {
+//            toastAndLog("Loading ${request.moduleNames}")
+//        }
+//    }
 
     /** Install all features deferred. */
-    private fun installAllFeaturesDeferred() {
-
-        val modules = listOf(moduleKotlin, moduleJava, moduleAssets, moduleNative)
-
-        manager.deferredInstall(modules).addOnSuccessListener {
-            toastAndLog("Deferred installation of $modules")
-        }
-    }
+//    private fun installAllFeaturesDeferred() {
+//
+//        val modules = listOf(moduleKotlin, moduleJava, moduleAssets, moduleNative)
+//
+//        manager.deferredInstall(modules).addOnSuccessListener {
+//            toastAndLog("Deferred installation of $modules")
+//        }
+//    }
 
     /** Request uninstall of all features. */
     private fun requestUninstall() {
@@ -154,16 +154,16 @@ class FeaturesActivity : AppCompatActivity() {
      * @param launch `true` if the feature module should be launched, else `false`.
      */
     private fun onSuccessfulLoad(moduleName: String, launch: Boolean) {
-        if (launch) {
-            when (moduleName) {
-                moduleKotlin -> launchActivity(kotlinSampleClassname)
-                moduleJava -> launchActivity(javaSampleClassname)
-                moduleNative -> launchActivity(nativeSampleClassname)
-                moduleAssets -> displayAssets()
-            }
-        }
-
-        displayButtons()
+//        if (launch) {
+//            when (moduleName) {
+//                moduleKotlin -> launchActivity(kotlinSampleClassname)
+//                moduleJava -> launchActivity(javaSampleClassname)
+//                moduleNative -> launchActivity(nativeSampleClassname)
+//                moduleAssets -> displayAssets()
+//            }
+//        }
+//
+//        displayButtons()
     }
 
     /** Launch an activity by its class name. */
@@ -176,12 +176,12 @@ class FeaturesActivity : AppCompatActivity() {
 
     /** Display a loading state to the user. */
     private fun displayLoadingState(state: SplitInstallSessionState, message: String) {
-        displayProgress()
+//        displayProgress()
 
-        progressBar.max = state.totalBytesToDownload().toInt()
-        progressBar.progress = state.bytesDownloaded().toInt()
+//        progressBar.max = state.totalBytesToDownload().toInt()
+//        progressBar.progress = state.bytesDownloaded().toInt()
 
-        updateProgressMessage(message)
+//        updateProgressMessage(message)
     }
 
     fun toastAndLog(text: String) {

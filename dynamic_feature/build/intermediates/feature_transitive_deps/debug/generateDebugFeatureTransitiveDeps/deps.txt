@@ -1,4 +1,0 @@
-org.jetbrains.kotlin:kotlin-stdlib
-org.jetbrains.kotlin:kotlin-stdlib-common
-org.jetbrains.kotlin:kotlin-stdlib-jdk7
-org.jetbrains:annotations
