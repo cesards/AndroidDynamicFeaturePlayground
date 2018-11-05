@@ -17,14 +17,11 @@ import android.provider.ContactsContract
 import android.text.TextUtils
 import android.view.View
 import android.view.inputmethod.EditorInfo
-import android.widget.ArrayAdapter
-import android.widget.TextView
 
 import java.util.ArrayList
 import android.Manifest.permission.READ_CONTACTS
+import android.widget.*
 import com.chewy.test.dynamicfeatures.SplitActivity
-
-import kotlinx.android.synthetic.main.activity_login.*
 
 /**
  * A login screen that offers login via email/password.
@@ -35,12 +32,24 @@ class LoginActivity : SplitActivity(), LoaderCallbacks<Cursor> {
      */
     private var mAuthTask: UserLoginTask? = null
 
+    private lateinit var passwordView : EditText
+    private lateinit var signInView : Button
+    private lateinit var emailView : AutoCompleteTextView
+    private lateinit var containerView : ScrollView
+    private lateinit var progressView : ProgressBar
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
+        passwordView = findViewById(R.id.password)
+        signInView = findViewById(R.id.email_sign_in_button)
+        emailView = findViewById(R.id.email)
+        containerView = findViewById(R.id.login_form)
+        progressView = findViewById(R.id.login_progress)
+
         // Set up the login form.
         populateAutoComplete()
-        password.setOnEditorActionListener(TextView.OnEditorActionListener { _, id, _ ->
+        passwordView.setOnEditorActionListener(TextView.OnEditorActionListener { _, id, _ ->
             if (id == EditorInfo.IME_ACTION_DONE || id == EditorInfo.IME_NULL) {
                 attemptLogin()
                 return@OnEditorActionListener true
@@ -48,7 +57,7 @@ class LoginActivity : SplitActivity(), LoaderCallbacks<Cursor> {
             false
         })
 
-        email_sign_in_button.setOnClickListener { attemptLogin() }
+        signInView.setOnClickListener { attemptLogin() }
     }
 
     private fun populateAutoComplete() {
@@ -67,15 +76,12 @@ class LoginActivity : SplitActivity(), LoaderCallbacks<Cursor> {
             return true
         }
         if (shouldShowRequestPermissionRationale(READ_CONTACTS)) {
-            Snackbar.make(email, R.string.permission_rationale, Snackbar.LENGTH_INDEFINITE)
-                .setAction(android.R.string.ok,
-                    { requestPermissions(arrayOf(READ_CONTACTS),
-                        REQUEST_READ_CONTACTS
-                    ) })
+            Snackbar.make(emailView, R.string.permission_rationale, Snackbar.LENGTH_INDEFINITE)
+                .setAction(android.R.string.ok) {
+                    requestPermissions(arrayOf(READ_CONTACTS), REQUEST_READ_CONTACTS)
+                }
         } else {
-            requestPermissions(arrayOf(READ_CONTACTS),
-                REQUEST_READ_CONTACTS
-            )
+            requestPermissions(arrayOf(READ_CONTACTS), REQUEST_READ_CONTACTS)
         }
         return false
     }
@@ -83,10 +89,7 @@ class LoginActivity : SplitActivity(), LoaderCallbacks<Cursor> {
     /**
      * Callback received when a permissions request has been completed.
      */
-    override fun onRequestPermissionsResult(
-        requestCode: Int, permissions: Array<String>,
-        grantResults: IntArray
-    ) {
+    override fun onRequestPermissionsResult(requestCode: Int, permissions: Array<String>, grantResults: IntArray) {
         if (requestCode == REQUEST_READ_CONTACTS) {
             if (grantResults.size == 1 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
                 populateAutoComplete()
@@ -106,31 +109,31 @@ class LoginActivity : SplitActivity(), LoaderCallbacks<Cursor> {
         }
 
         // Reset errors.
-        email.error = null
-        password.error = null
+        emailView.error = null
+        passwordView.error = null
 
         // Store values at the time of the login attempt.
-        val emailStr = email.text.toString()
-        val passwordStr = password.text.toString()
+        val emailStr = emailView.text.toString()
+        val passwordStr = passwordView.text.toString()
 
         var cancel = false
         var focusView: View? = null
 
         // Check for a valid password, if the user entered one.
         if (!TextUtils.isEmpty(passwordStr) && !isPasswordValid(passwordStr)) {
-            password.error = getString(R.string.error_invalid_password)
-            focusView = password
+            passwordView.error = getString(R.string.error_invalid_password)
+            focusView = passwordView
             cancel = true
         }
 
         // Check for a valid email address.
         if (TextUtils.isEmpty(emailStr)) {
-            email.error = getString(R.string.error_field_required)
-            focusView = email
+            emailView.error = getString(R.string.error_field_required)
+            focusView = emailView
             cancel = true
         } else if (!isEmailValid(emailStr)) {
-            email.error = getString(R.string.error_invalid_email)
-            focusView = email
+            emailView.error = getString(R.string.error_invalid_email)
+            focusView = emailView
             cancel = true
         }
 
@@ -168,30 +171,30 @@ class LoginActivity : SplitActivity(), LoaderCallbacks<Cursor> {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB_MR2) {
             val shortAnimTime = resources.getInteger(android.R.integer.config_shortAnimTime).toLong()
 
-            login_form.visibility = if (show) View.GONE else View.VISIBLE
-            login_form.animate()
+            containerView.visibility = if (show) View.GONE else View.VISIBLE
+            containerView.animate()
                 .setDuration(shortAnimTime)
                 .alpha((if (show) 0 else 1).toFloat())
                 .setListener(object : AnimatorListenerAdapter() {
                     override fun onAnimationEnd(animation: Animator) {
-                        login_form.visibility = if (show) View.GONE else View.VISIBLE
+                        containerView.visibility = if (show) View.GONE else View.VISIBLE
                     }
                 })
 
-            login_progress.visibility = if (show) View.VISIBLE else View.GONE
-            login_progress.animate()
+            progressView.visibility = if (show) View.VISIBLE else View.GONE
+            progressView.animate()
                 .setDuration(shortAnimTime)
                 .alpha((if (show) 1 else 0).toFloat())
                 .setListener(object : AnimatorListenerAdapter() {
                     override fun onAnimationEnd(animation: Animator) {
-                        login_progress.visibility = if (show) View.VISIBLE else View.GONE
+                        progressView.visibility = if (show) View.VISIBLE else View.GONE
                     }
                 })
         } else {
             // The ViewPropertyAnimator APIs are not available, so simply show
             // and hide the relevant UI components.
-            login_progress.visibility = if (show) View.VISIBLE else View.GONE
-            login_form.visibility = if (show) View.GONE else View.VISIBLE
+            progressView.visibility = if (show) View.VISIBLE else View.GONE
+            containerView.visibility = if (show) View.GONE else View.VISIBLE
         }
     }
 
@@ -238,7 +241,7 @@ class LoginActivity : SplitActivity(), LoaderCallbacks<Cursor> {
             android.R.layout.simple_dropdown_item_1line, emailAddressCollection
         )
 
-        email.setAdapter(adapter)
+        emailView.setAdapter(adapter)
     }
 
     object ProfileQuery {
@@ -284,8 +287,8 @@ class LoginActivity : SplitActivity(), LoaderCallbacks<Cursor> {
             if (success!!) {
                 finish()
             } else {
-                password.error = getString(R.string.error_incorrect_password)
-                password.requestFocus()
+                passwordView.error = getString(R.string.error_incorrect_password)
+                passwordView.requestFocus()
             }
         }
 

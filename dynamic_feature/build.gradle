@@ -9,14 +9,18 @@ android {
         minSdkVersion versions.minSdk
         targetSdkVersion versions.targetSdk
     }
+
+    androidExtensions {
+        experimental = true
+    }
 }
 
 dependencies {
     implementation project(':app')
-    compileOnly project(':data')
+    implementation project(':data')
 
+    implementation 'androidx.annotation:annotation:1.0.0'
     implementation 'com.google.android.material:material:1.1.0-alpha01'
-
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:${versions.kotlin}"
     implementation 'androidx.recyclerview:recyclerview:1.0.0'
 }
