@@ -17,11 +17,13 @@ import android.provider.ContactsContract
 import android.text.TextUtils
 import android.view.View
 import android.view.inputmethod.EditorInfo
-
 import java.util.ArrayList
 import android.Manifest.permission.READ_CONTACTS
 import android.widget.*
 import com.chewy.test.dynamicfeatures.SplitActivity
+import android.chewy.com.dynamicfeature.R as dynamicFeatureR
+import android.chewy.com.data.R as dataR
+
 
 /**
  * A login screen that offers login via email/password.
@@ -40,12 +42,12 @@ class LoginActivity : SplitActivity(), LoaderCallbacks<Cursor> {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_login)
-        passwordView = findViewById(R.id.password)
-        signInView = findViewById(R.id.email_sign_in_button)
-        emailView = findViewById(R.id.email)
-        containerView = findViewById(R.id.login_form)
-        progressView = findViewById(R.id.login_progress)
+        setContentView(dataR.layout.activity_login)
+        passwordView = findViewById(dataR.id.password)
+        signInView = findViewById(dataR.id.email_sign_in_button)
+        emailView = findViewById(dataR.id.email)
+        containerView = findViewById(dataR.id.login_form)
+        progressView = findViewById(dataR.id.login_progress)
 
         // Set up the login form.
         populateAutoComplete()
@@ -76,7 +78,7 @@ class LoginActivity : SplitActivity(), LoaderCallbacks<Cursor> {
             return true
         }
         if (shouldShowRequestPermissionRationale(READ_CONTACTS)) {
-            Snackbar.make(emailView, R.string.permission_rationale, Snackbar.LENGTH_INDEFINITE)
+            Snackbar.make(emailView, dynamicFeatureR.string.permission_rationale, Snackbar.LENGTH_INDEFINITE)
                 .setAction(android.R.string.ok) {
                     requestPermissions(arrayOf(READ_CONTACTS), REQUEST_READ_CONTACTS)
                 }
@@ -121,18 +123,18 @@ class LoginActivity : SplitActivity(), LoaderCallbacks<Cursor> {
 
         // Check for a valid password, if the user entered one.
         if (!TextUtils.isEmpty(passwordStr) && !isPasswordValid(passwordStr)) {
-            passwordView.error = getString(R.string.error_invalid_password)
+            passwordView.error = getString(android.chewy.com.dynamicfeature.R.string.error_invalid_password)
             focusView = passwordView
             cancel = true
         }
 
         // Check for a valid email address.
         if (TextUtils.isEmpty(emailStr)) {
-            emailView.error = getString(R.string.error_field_required)
+            emailView.error = getString(dynamicFeatureR.string.error_field_required)
             focusView = emailView
             cancel = true
         } else if (!isEmailValid(emailStr)) {
-            emailView.error = getString(R.string.error_invalid_email)
+            emailView.error = getString(dynamicFeatureR.string.error_invalid_email)
             focusView = emailView
             cancel = true
         }
@@ -287,7 +289,7 @@ class LoginActivity : SplitActivity(), LoaderCallbacks<Cursor> {
             if (success!!) {
                 finish()
             } else {
-                passwordView.error = getString(R.string.error_incorrect_password)
+                passwordView.error = getString(dynamicFeatureR.string.error_incorrect_password)
                 passwordView.requestFocus()
             }
         }
