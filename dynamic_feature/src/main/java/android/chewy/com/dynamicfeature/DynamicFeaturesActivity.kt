@@ -1,9 +1,9 @@
 package android.chewy.com.dynamicfeature
 
-import android.chewy.com.data.DynamicFeature
-import android.chewy.com.data.Feature
-import android.chewy.com.data.FeaturesAdapter
-import android.chewy.com.data.features
+import android.chewy.com.base.DynamicFeature
+import android.chewy.com.base.Feature
+import android.chewy.com.base.FeaturesAdapter
+import android.chewy.com.base.features
 import android.os.Bundle
 import androidx.recyclerview.widget.RecyclerView
 import com.chewy.test.dynamicfeatures.SplitActivity
@@ -27,8 +27,3 @@ class DynamicFeaturesActivity : SplitActivity(), DynamicFeature {
         featuresView.adapter = featuresAdapter
     }
 }
-
-// DynamicFeaturesActivity.kt: (3, 31): Unresolved reference: FeaturesAdapter
-// implementation project(':app')
-// implementation project(':base')
-// Might it be because of a cyclic dependency

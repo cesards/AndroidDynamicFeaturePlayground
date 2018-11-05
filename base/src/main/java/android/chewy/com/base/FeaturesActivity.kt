@@ -1,9 +1,5 @@
 package android.chewy.com.base
 
-import android.chewy.com.data.DynamicFeature
-import android.chewy.com.data.Feature
-import android.chewy.com.data.FeaturesAdapter
-import android.chewy.com.data.features
 import android.content.Intent
 import android.os.Bundle
 import android.util.Log
@@ -11,8 +7,10 @@ import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.RecyclerView
-import com.google.android.material.snackbar.Snackbar
-import com.google.android.play.core.splitinstall.*
+import com.google.android.play.core.splitinstall.SplitInstallManager
+import com.google.android.play.core.splitinstall.SplitInstallRequest
+import com.google.android.play.core.splitinstall.SplitInstallSessionState
+import com.google.android.play.core.splitinstall.SplitInstallStateUpdatedListener
 import com.google.android.play.core.splitinstall.model.SplitInstallSessionStatus
 
 private const val TAG = "FeaturesActivity"

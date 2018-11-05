@@ -1,4 +1,4 @@
-package android.chewy.com.data
+package android.chewy.com.base
 
 import android.view.LayoutInflater
 import android.view.View
