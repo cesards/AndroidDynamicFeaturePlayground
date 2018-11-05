@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="android.chewy.com.dynamicfeature"> <!-- To auto-complete the email text field in the login form with the user's emails -->
+          xmlns:dist="http://schemas.android.com/apk/distribution"
+          package="android.chewy.com.dynamicfeature"
+          split="dynamic_features">
+
+    <dist:module
+            dist:onDemand="true"
+            dist:title="@string/dynamic_module_dynamic_features">
+        <dist:fusing dist:include="true"/>
+    </dist:module>
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
     <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
     <uses-permission android:name="android.permission.READ_PROFILE"/>
     <uses-permission android:name="android.permission.READ_CONTACTS"/>

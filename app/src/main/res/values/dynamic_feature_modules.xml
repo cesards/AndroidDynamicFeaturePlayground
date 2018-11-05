@@ -1,8 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="module_feature_kotlin">kotlin</string>
-    <string name="module_feature_java">java</string>
-    <string name="module_assets">assets</string>
-    <string name="module_large">large</string>
-    <string name="module_native">native</string>
+    <string name="dynamic_module_dynamic_features">dynamic_features</string>
 </resources>
